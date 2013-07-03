@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: iso-8859-15 -*-
 
-class persona(object):
+class persona():
 	"""Clase Persona """
 	def __init__(self, nombre, paterno, materno):
 		self.nombre = nombre
