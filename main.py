@@ -1,5 +1,4 @@
 #!/usr/bin/python
 # -*- coding: iso-8859-15 -*-
-import os, sys
+import domicilio, persona, usuario
 
-print "Primera versión."
