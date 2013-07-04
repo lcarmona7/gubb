@@ -3,11 +3,19 @@
 
 class domicilio():
 	"""Clase Domicilio"""
-	def __init__(self, barrio, tipo, mes, anio):
+	def __init__(self, clave, barrio, tipo, mes, anio, dueno):
+		self.clave = clave
 		self.barrio = barrio
 		self.tipo = tipo
 		self.mes = mes
 		self.anio = anio
+		self.dueno = dueno
+
+	def setclave(self, clave):
+		self.clave = clave
+
+	def getclave(self):
+		return self.clave
 
 	def setbarrio(self, barrio):
 		self.barrio = barrio
@@ -32,3 +40,9 @@ class domicilio():
 
 	def getanio(self):
 		return self.anio
+
+	def setdueno(self, dueno):
+		self.dueno = dueno
+
+	def getdueno(self):
+		return self.dueno
