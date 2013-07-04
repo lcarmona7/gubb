@@ -1,11 +1,13 @@
 #!/usr/bin/python
 # -*- coding: iso-8859-15 -*-
 
-class domicilio(object):
+class domicilio():
 	"""Clase Domicilio"""
-	def __init__(self, barrio, tipo):
+	def __init__(self, barrio, tipo, mes, anio):
 		self.barrio = barrio
 		self.tipo = tipo
+		self.mes = mes
+		self.anio = anio
 
 	def setbarrio(self, barrio):
 		self.barrio = barrio
@@ -17,4 +19,16 @@ class domicilio(object):
 		self.tipo = tipo
 
 	def gettipo(self):
-		return self.tipo		
+		return self.tipo
+
+	def setmes(self, mes):
+		self.mes = mes
+
+	def getmes(self):
+		return self.mes
+
+	def setanio(self, anio):
+		self.anio = anio
+
+	def getanio(self):
+		return self.anio
