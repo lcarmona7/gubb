@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: iso-8859-15 -*-
-from persona import persona
+from lib.persona import persona
 
 class usuario(persona):
 	"""Clase usuario"""
